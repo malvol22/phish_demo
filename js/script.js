@@ -30,7 +30,6 @@ elButton.addEventListener('click', function (event) {
         headers: {
             'Content-Type': 'application/json'
         },
-        mode: 'no-cors', // Set no-cors mode
         body: JSON.stringify(data)
     })
         .then(response => {
